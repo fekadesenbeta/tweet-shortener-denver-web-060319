@@ -1,13 +1,11 @@
 def dictionary
-  hash = {
-  "hello"=> "hi",
-  "to, two, too" => "2",
-  "for, four" => "4",
-  'be' => "b",
-  'you' => "u",
-  "at" => "@" ,
-  "and" => "&"
-  }
+  hash = "hello" becomes 'hi'
+"to, two, too" become '2' 
+"for, four" become '4'
+'be' becomes 'b'
+'you' becomes 'u'
+"at" becomes "@" 
+"and" becomes "&"
 end
 
 def word_substituter(tweet) # takes a tweet string and makes substitutions
