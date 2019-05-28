@@ -16,8 +16,8 @@ end
 def word_substituter(tweet)
   tweet = "Hey guys, can anyone teach me how to be cool? I really want to be the best at everything, you know what I mean? Tweeting is super fun you guys!!!!" 
  
- string_array = input_string.split(" ")
-  string_array.collect! do |word|
+ tweet = input_string.split(" ")
+  tweet.collect do |word|
     dictionary.has_key?(word.downcase)? word = dictionary[word.downcase] : word
   end
 
