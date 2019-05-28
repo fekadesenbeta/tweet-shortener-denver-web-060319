@@ -14,8 +14,10 @@ def dictionary
 end
 
 def word_substituter(string)
-  string.split(" ")
-
+  tweet_array = string.split(" ")
+   tweet_array.collect do 
+    
+  end
 end
 
 
