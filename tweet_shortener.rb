@@ -10,8 +10,8 @@ def dictionary
   }
 end
 
-def word_substituter(tweet_one)
-  array = tweet_one.split(" ")
+def word_substituter(tweet)
+  array = tweet.split(" ")
    array.each do |words|
     dictionary.keys.each do |x|
       if x == words 
