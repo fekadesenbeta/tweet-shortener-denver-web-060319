@@ -12,10 +12,9 @@ end
 
 def word_substituter(tweet_one)
   array = tweet_one.split(" ")
-   array.each do |x| 
-     if x == dictionary.keys
-      results = array.join 
-       
-  end     
+    dictionary.keys.each do |x|
+      if x == words 
+      array[index] = dictionary[x]
   end
+ end
 end
