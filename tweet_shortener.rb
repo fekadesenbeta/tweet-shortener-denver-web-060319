@@ -20,7 +20,6 @@ def word_substituter(tweet)
      x = dictionary[x]
    else x
    end
-   tweet.join
   
 end
 end
