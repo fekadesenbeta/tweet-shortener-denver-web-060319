@@ -13,10 +13,9 @@ def dictionary
   }
 end
 
-
 def word_substituter(string)
-  
-   something_that_holds_the_value = string.split(" ").map do |another_value|
+   something_that_holds_the_value = string.split(" ")
+    something_that_holds_the_value.map do |another_value|
     if dictionary.keys.include?(another_value)
       dictionary[another_value]
     else
