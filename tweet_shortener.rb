@@ -13,12 +13,10 @@ end
 def word_substituter(tweet)
   array = tweet.split(" ")
    array.each do |words|
-    dictionary.keys.each do |x|
-     
-  end
- end
+
 end
-end
+
+
 
 def word_substituter(tweet) # takes a tweet string and makes substitutions
   tweet.split(' ').collect do |word| # for each word in the tweet array
