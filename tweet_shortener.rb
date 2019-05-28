@@ -14,9 +14,6 @@ def dictionary
 end
 
 
-def word_substituter(tweet)
-  
-end
 
 
 def word_substituter(tweet) # takes a tweet string and makes substitutions
@@ -26,7 +23,8 @@ def word_substituter(tweet) # takes a tweet string and makes substitutions
     else
       word # otherwise return the original word so it doesn't show 'nil'
     end
-  end.join(' ')
+  end
+  tweet.join(' ')
 end
 
 
