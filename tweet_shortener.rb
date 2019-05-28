@@ -16,8 +16,8 @@ end
 def word_substituter(tweet)
   tweet = "Hey guys, can anyone teach me how to be cool? I really want to be the best at everything, you know what I mean? Tweeting is super fun you guys!!!!" 
   tweet.split(" ").collect do |x| 
-    if dicionary.keys.include?(x)
-     x = dicionary[x]
+    if dictionary.keys.include?(x)
+     x = dictionary[x]
    else x
    end
    tweet.join(" ")
