@@ -16,15 +16,16 @@ end
 def word_substituter(tweet)
   tweet = "Hey guys, can anyone teach me how to be cool? I really want to be the best at everything, you know what I mean? Tweeting is super fun you guys!!!!" 
  
- tweet = tweet.split(" ")
-  tweet.each do |word|
-    dictionary.has_key?(word.downcase)? word = dictionary[word.downcase] : word
+  dict = dictionary
+ tweet.split(" ").map do |word|
+    if dict.keys.include?(word)
+      dict[word]
+    else
+      word
+    end
   end
-
-   new_tweet = tweet.join(" ")
-  new_tweet
-
- end
+  tweet.join(" ")
+end
 
 
 
