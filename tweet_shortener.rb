@@ -22,7 +22,7 @@ def word_substituter(tweet)
       word = dictionary[word.downcase] 
       else tweet.join(" ")
   end
-
+end 
    new_tweet = tweet.join(" ")
   new_tweet
 
