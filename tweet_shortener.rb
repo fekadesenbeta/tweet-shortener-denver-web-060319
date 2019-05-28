@@ -21,7 +21,7 @@ def word_substituter(tweet)
     dictionary.has_key?(word.downcase)? word = dictionary[word.downcase] : word
   end
 
-   new_tweet = string_array.join(" ")
+   new_tweet = tweet.join(" ")
   new_tweet
 
  end
