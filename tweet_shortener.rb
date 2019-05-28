@@ -23,8 +23,7 @@ def word_substituter(tweet) # takes a tweet string and makes substitutions
     else
       word # otherwise return the original word so it doesn't show 'nil'
     end
-  end
-  tweet.join(' ')
+  end.join(' ')
 end
 
 
