@@ -21,7 +21,7 @@ def word_substituter (tweet)
       word
     end
   end
-  words_to_be_shortened.join(" ")
+  return words_to_be_shortened.join(" ")
 end
 
 def bulk_tweet_shortener(array)
