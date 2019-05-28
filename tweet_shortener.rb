@@ -13,8 +13,9 @@ def dictionary
   }
 end
 
-
-
+def word_substituter(tweet)
+  tweet.split(" ").collect
+end
 
 def word_substituter(tweet) # takes a tweet string and makes substitutions
   tweet.split(' ').collect do |word| # for each word in the tweet array
