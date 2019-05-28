@@ -13,6 +13,12 @@ def dictionary
   }
 end
 
+
+def word_substituter(tweet)
+  
+end
+
+
 def word_substituter(tweet) # takes a tweet string and makes substitutions
   tweet.split(' ').collect do |word| # for each word in the tweet array
     if dictionary.keys.include?(word.downcase) # if the array of dict keys includes a downcase tweet word
@@ -22,6 +28,12 @@ def word_substituter(tweet) # takes a tweet string and makes substitutions
     end
   end.join(' ')
 end
+
+
+
+
+
+
 
 
 
