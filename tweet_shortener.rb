@@ -15,7 +15,8 @@ end
 
 def word_substituter(tweet)
   tweet.split(" ").collect do |word| 
-    if dicionary.keys.inclide?()
+    if dicionary.keys.include?(word)
+    new_tweet =   
 end
 
 def word_substituter(tweet) # takes a tweet string and makes substitutions
