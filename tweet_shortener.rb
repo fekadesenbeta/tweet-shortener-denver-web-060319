@@ -24,4 +24,8 @@ def word_substituter (tweet)
   words_to_be_shortened.join(" ")
 end
 
+def bulk_tweet_shortener(array)
+  array
+end
+
 
