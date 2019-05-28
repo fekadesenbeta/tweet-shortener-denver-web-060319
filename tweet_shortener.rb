@@ -24,7 +24,7 @@ def word_substituter(tweet)
       another_value
     end
   end
-  tweet.join(" ")
+  something_that_holds_the_value.join(" ")
 end
 
 
