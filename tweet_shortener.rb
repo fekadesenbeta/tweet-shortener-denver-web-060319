@@ -12,8 +12,6 @@ end
 
 def word_substituter(tweet_one)
   array = tweet_one.split(" ")
-  tweet_one.each do |words|
-    words.split.downcase 
-  end
+   array.each do |x|  
   
 end
