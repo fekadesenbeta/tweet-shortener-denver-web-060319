@@ -15,11 +15,11 @@ end
 
 
 def word_substituter(tweet)
-  tweet = "Hey guys, can anyone teach me how to be cool? I really want to be the best at everything, you know what I mean? Tweeting is super fun you guys!!!!" 
-  dict = dictionary
+  #tweet = "Hey guys, can anyone teach me how to be cool? I really want to be the best at everything, #you know what I mean? Tweeting is super fun you guys!!!!" 
+ 
   tweet_arr = tweet.split(" ").map do |word|
-    if dict.keys.include?(word)
-      dict[word]
+    if dictionary.keys.include?(word)
+      dictionary[word]
     else
       word
     end
