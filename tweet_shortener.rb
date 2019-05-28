@@ -17,11 +17,11 @@ end
 def word_substituter(tweet)
   #tweet = "Hey guys, can anyone teach me how to be cool? I really want to be the best at everything, #you know what I mean? Tweeting is super fun you guys!!!!" 
  
-  new_array = tweet.split(" ")map do |value|
-    if dictionary.keys.include?(value)
-      value = dictionary[value]
+  new_array = tweet.split(" ")map do |word|
+    if dictionary.keys.include?(word)
+      word = dictionary[value]
     else
-      value
+      word
     end
   end
   new_array.join(" ")
